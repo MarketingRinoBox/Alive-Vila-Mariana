@@ -9,7 +9,6 @@ import Maps from "../components/Maps/Maps"
 import Plantas from "../components/Plantas/Plantas"
 import Porque from "../components/Porque/Porque"
 import Sobre from "../components/Sobre/Sobre"
-import ScrollToTop from "../components/ScrollToTop/ScrollToTop"
 
 
 
@@ -18,7 +17,6 @@ function Home() {
         <div className="home">
             <div className="bg1">
                 <div className="bg1-home">
-                    <ScrollToTop />
                     <Header />
                     <MainSection />
                     <Porque />
