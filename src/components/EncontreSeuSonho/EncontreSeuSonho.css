@@ -1,0 +1,182 @@
+.encontreSeuSonho {
+    text-align: center;
+    height: 48rem;
+}
+
+.encontreSeuSonho h1 {
+    text-align: left;
+    color: black;
+    margin-left: 90px;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.encontreSeuSonho h1 span {
+    color: #f9a328;
+}
+
+.tracado {
+    content: '';
+    width: 20%;
+    height: 1px;
+    background-color: black;
+}
+
+.encontreSeuSonho img {
+    color: #CECCCB;
+    width: 26px;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-inner {
+    margin: 20px 10px;
+    transition: 200ms ease-in;
+}
+
+.card-inner:hover {
+    transform: scale(1.1);
+}
+
+.disable {
+    opacity: 40%;
+}
+
+.card-inner img {
+    width: 306px;
+}
+
+.card-inner-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-box-texto {
+    text-align: left;
+    margin: 0 16px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-box-texto h1{
+    color: #919194;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.card-box-texto h1::after {
+    display: none;
+}
+
+.card-box-texto p{
+    letter-spacing: 4px;
+    color: #919194;
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    text-align: left;
+}
+
+.card-box-texto span{
+    letter-spacing: 8px;
+    color: #919194;
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.card-box-icone i{
+    font-size: 30px;
+    color: #919194;
+    cursor: pointer;
+}
+
+
+@media (max-width: 940px) {
+    .encontreSeuSonho h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1303px) {
+    .encontreSeuSonho {
+        height: 75rem;
+    }
+}
+
+
+@media (max-width: 1025px) {
+    .encontreSeuSonho h1 {
+        font-size: 62px;
+    }
+    .card-inner-box h1 {
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width: 785px) {
+    .encontreSeuSonho h1 {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 769px) {
+    .encontreSeuSonho h1 {
+        font-size: 56px;
+    }
+    .card-box-texto h1{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 785px) {
+    .encontreSeuSonho h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 663px) {
+    .encontreSeuSonho {
+        height: 104rem;
+    }
+}
+
+@media (max-width: 651px) {
+    .encontreSeuSonho {
+        text-align: center;
+        height: 138rem;
+    }
+}
+
+@media (max-width: 555px) {
+    .encontreSeuSonho h1 {
+        font-size: 40px;
+        letter-spacing: 0px;
+    }
+    .card-box-texto h1{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 450px) {
+    .encontreSeuSonho h1 {
+        font-size: 26px;
+        letter-spacing: 0px;
+    }
+    .card-box-texto h1{
+        font-size: 17px;
+        letter-spacing: 0px;
+    }
+}

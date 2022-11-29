@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:"Montserrat", sans-serif ;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a, ul, li {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footer-section {
+  background-image: url('../public/bg-footer.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg1-home {
+  background-image: url('../public/imagem_home.png');
+  background-repeat: no-repeat;
+  background-position: 106% 2%;
+  background-size: 40%;
+}
+
+.bg1 {
+  background-image: url('../public/bg-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  background-image: url('../public/bg-2.png');
+  background-repeat: no-repeat;
+  background-size: 0% ;
+  background-position: 0 -335px;
+}
+
+@media (max-width: 1310px) {
+  .bg1-home {
+    background-size: 44%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1170px) {
+  .bg1-home {
+    background-position: 107% 2%;
+    background-size: 48%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 970px) {
+  .bg1-home {
+    background-position: 107% 2%;
+    background-size: 51%;
+  }
+}
+
+@media (max-width: 860px) {
+  .bg1-home {
+    background-position: 50% 26%;
+    background-size: 43%;
+  }
+}
+
+@media (max-width: 795px) {
+  .bg1-home {
+    background-position: 50% 25%;
+    background-size: 47%;
+  }
+}
+
+@media (max-width: 725px) {
+  .bg1-home {
+    background-size: 52%;
+  }
+}
+
+@media (max-width: 710px) {
+  .bg1-home {
+    background-position: 50% 25%;
+    background-size: 52%;
+  }
+}
+
+@media (max-width: 695px) {
+  .bg1-home {
+    background-position: 50% 24%;
+    background-size: 53%;
+  }
+}
+
+@media (max-width: 650px) {
+  .bg1-home {
+    background-position: 50% 23%;
+    background-size: 57%;
+  }
+}
+
+@media (max-width: 615px) {
+  .bg1-home {
+    background-position: 50% 23%;
+    background-size: 60%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .footer-section {
+    height: 110vh;
+  }
+}
+
+
+@media (max-width: 580px) {
+  .bg1-home {
+    background-position: 50% 22%;
+    background-size: 64%;
+  }
+}
+
+@media (max-width: 520px) {
+  .bg1-home {
+    background-position: 50% 22%;
+    background-size: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-section {
+    height: 135vh;
+  }
+}
+
+@media (max-width: 475px) {
+  .bg1-home {
+    background-position: 50% 21%;
+    background-size: 80%;
+  }
+}
+
+@media (max-width: 437px) {
+  .bg1-home {
+    background-position: 50% 22%;
+    background-size: 85%;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-section {
+    height: 145vh;
   }
 }

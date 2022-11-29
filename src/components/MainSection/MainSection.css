@@ -1,0 +1,194 @@
+.mainSection {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.imagemHome {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+}
+
+.mainSection-area {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 50px 0;
+    z-index: 5;
+
+}
+
+.mainSection-area-texto {
+    width: 50%;
+}
+
+.mainSection-area-texto img{
+    width: 170px;
+}
+
+.mainSection-area-texto h1 {
+    font-weight: 500;
+}
+
+.mainSection-area-texto strong {
+    font-size: 42px;
+}
+
+.mainSection-area-texto span {
+    color: #f9a328;
+}
+
+.mainSection-area-texto p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.mainSection-area-texto a {
+    text-decoration: none;
+    color: #f9a328;
+    font-weight: 600;
+}
+
+.mainSection-area-texto a:hover {
+    color: #000;
+}
+
+.icon-scroll{
+    width: 11px;
+    height: 12px;
+    margin-left: -20px;
+    top: 47%;
+    margin-top: 380px;
+    box-shadow: inset 0 0 0 1px #000;
+    border-radius: 10px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+  100% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+}
+
+.llform001 {
+    background-color: transparent !important;
+    padding: 0 !important;
+}
+
+.llform001 > div > label {
+    color: white;
+    margin: 0;
+}
+
+.mainSection-forms form {
+    max-width: 315px !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 20px !important;
+    color: white !important;
+    padding: 20px 30px !important;
+    z-index: 5;
+}
+
+.investimentoMoradia h1 {
+    font-size: 26px !important;
+}
+
+.radio-list {
+    display: flex !important;
+    margin: 5px 0 !important;
+
+}
+
+.radio-list label {
+    padding-right: 20px !important;
+    color: white;
+}
+
+.llform001 > div > input, .llform001 > div > select, .llform001 > div > textarea {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid white !important;
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    color: white !important;
+    padding: 5px 5px !important;
+    font-size: 16px !important;
+    z-index: 5;
+}
+
+.llform001 > div {
+    padding: 0px 0 !important;
+}
+
+.inputs input {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid white !important;
+    margin-bottom: 25px !important;
+    color: white !important;
+    padding: 5px 5px !important;
+    font-size: 16px !important;
+}
+
+.inputs input::placeholder{
+    color: white !important;
+}
+
+
+.checkbox {
+    width: 90% !important;
+    font-size: 13px !important;
+    padding-bottom: 20px !important;
+}
+
+.checkbox label {
+    color: white;
+}
+
+.button-bar {
+    text-align: center !important;
+}
+
+.button-bar button {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #f9a328 !important;
+    padding: 6px 20px !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+
+@media (max-width: 910px) {
+    .mainSection-area {
+        justify-content: space-around;
+    }
+    .icon-scroll {
+        display: none
+    }
+}
+
+@media (max-width: 860px) {
+    .mainSection-area {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainSection-area-texto {
+        margin-bottom: 50px;
+        width: 62%;
+    }
+}
+
+@media (max-width: 615px) {
+    .mainSection-area-texto {
+        width: 80%;
+    }
+}
+

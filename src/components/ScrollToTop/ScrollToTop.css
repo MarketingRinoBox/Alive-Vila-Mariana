@@ -1,0 +1,14 @@
+.scrollToTop button{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    z-index: 5;
+}
+
+.scrollToTop img {
+    width: 50px;
+
+}

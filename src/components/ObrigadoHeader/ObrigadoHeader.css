@@ -1,0 +1,10 @@
+.obrigadoHeader {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.obrigadoHeader img {
+    width: 125px;
+}

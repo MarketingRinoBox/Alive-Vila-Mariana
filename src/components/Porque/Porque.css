@@ -1,0 +1,104 @@
+.porque {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.porque-area {
+    width: 48%;
+}
+
+.porque-area span {
+    color: #f9a328;
+}
+
+.porque-area p {
+    padding: 15px 0;
+}
+
+.spanArea{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+
+.iconesWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.iconesWrapper img{
+    width: 150px;
+}
+
+.iconesWrapper p {
+    margin: 10px 0;
+    width: 80%;
+}
+
+.rec-dot {
+    display: none;
+}
+
+.rec-arrow:hover, .rec-arrow:active {
+    background-color: #f9a328 !important;
+}
+
+.rec-arrow-left:hover, .rec-arrow-right:active, .rec-arrow-left:hover:enabled {
+    background-color: #f9a328 !important;
+}
+
+@media (max-width: 1080px) {
+    .iconesWrapper img{
+        width: 115px;
+    }
+    .iconesWrapper p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 860px) {
+    .porque-area {
+        width: auto;
+    }
+}
+
+@media (max-width: 770px) {
+    .porque {
+        width: 90%;
+    }
+}
+
+@media (max-width: 705px) {
+    .iconesWrapper img{
+        width: 88px;
+    }
+    .porque .rec-carousel {
+        height: 254px !important;
+    }
+}
+
+@media (max-width: 565px) {
+    .iconesWrapper img{
+        width: 70px;
+    }
+    .iconesWrapper p {
+        font-size: 10px;
+    }
+    .porque .rec-carousel {
+        height: 230px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .iconesWrapper img{
+        width: 58px;
+    }
+    .iconesWrapper p {
+        font-size: 10px;
+    }
+}

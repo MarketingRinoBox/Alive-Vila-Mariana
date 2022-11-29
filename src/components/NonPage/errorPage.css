@@ -1,0 +1,17 @@
+.noPageComponents {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.noPageComponents-area {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noPageComponents img {
+    width: 60%;
+}

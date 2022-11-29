@@ -1,0 +1,141 @@
+.plantas {
+    margin: 0 auto;
+    background-image: url('../../../public/bg-3.png');
+    background-size: contain;
+}
+
+.plantas h1 {
+    text-align: left;
+    color: black;
+    margin-left: 90px;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.plantas h1 span {
+    color: #f9a328;
+}
+
+.tracado {
+    content: '';
+    width: 20%;
+    height: 1px;
+    background-color: black;
+}
+
+.plantas-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plantas-area-texto {
+    width: 36%;
+}
+
+.plantas-area-texto h1{
+    margin: 0;
+}
+
+.plantas-area-texto h2{
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.plantas-area-texto span{
+    font-weight: 500;
+}
+
+.plantas-area-texto p{
+    margin: 10px 0;
+}
+
+.plantas-area-icones {
+    display: flex;
+    flex-direction: column;
+}
+
+.plantas-icones {
+    display: flex;
+    margin: 10px 0;
+}
+
+.plantas-icones img {
+    width: 36px;
+    height: 30px;
+}
+
+.plantas-icones p {
+    margin-left: 10px;
+}
+
+.plantas-area-imagem {
+    width: 450px;
+}
+
+.plantas-area-imagem img {
+    width: 85%;
+}
+
+.plantas .rec-dot {
+    display: block;
+}
+
+.plantas .rec-arrow {
+    display: none;
+}
+
+.plantas .rec-dot {
+    box-shadow: 0 0 1px 3px rgb(249, 163, 40);
+}
+
+.plantas .rec-dot:hover {
+    box-shadow: 0 0 1px 3px rgb(249, 163, 40);
+}
+
+.plantas .rec-dot:focus {
+    box-shadow: 0 0 1px 3px rgb(249, 163, 40);
+}
+
+.plantas .rec-dot_active {
+    background-color: #f9a328;
+}
+
+.plantas .rec-carousel-wrapper {
+    padding-bottom: 80px;
+}
+
+@media (max-width: 940px) {
+    .plantas h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 875px) {
+    .plantas-area {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .plantas-area-texto {
+        width: 85%;
+    }
+}
+
+@media (max-width: 785px) {
+    .plantas h1 {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 475px) {
+    .plantas h1 {
+        font-size: 38px;
+        margin-left: 36px;
+    }
+    .plantas-area-imagem {
+        width: 304px;
+    }
+    .plantas-area-icones {
+        margin: 10px;
+    }
+}
