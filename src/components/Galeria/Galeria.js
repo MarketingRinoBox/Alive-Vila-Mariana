@@ -19,22 +19,6 @@ function Galeria() {
     const handleClose3 = () => setShow3(false);
     const handleShow3 = () => setShow3(true);
 
-    const [show4, setShow4] = useState(false);
-    const handleClose4 = () => setShow4(false);
-    const handleShow4 = () => setShow4(true);
-
-    const [show5, setShow5] = useState(false);
-    const handleClose5 = () => setShow5(false);
-    const handleShow5 = () => setShow5(true);
-
-    const [show6, setShow6] = useState(false);
-    const handleClose6 = () => setShow6(false);
-    const handleShow6 = () => setShow6(true);
-
-    const [show7, setShow7] = useState(false);
-    const handleClose7 = () => setShow7(false);
-    const handleShow7 = () => setShow7(true);
-
     return (
         <div className='galeria'>
             <h1 id='galeria' ><span>g</span>aleria</h1>

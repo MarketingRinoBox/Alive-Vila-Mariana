@@ -33,16 +33,16 @@ function Footer() {
                             <li>Segunda à quinta das 9:00h às 18:00h<br/>Sexta-feira, das 09 às 16h</li>
                         </ul>
                         <div className='footer-icons'>
-                        <a href=''><i className="fa-brands fa-instagram"></i></a>
-                        <a href=''><i className="fa-brands fa-facebook-f"></i></a>
-                        <a href=''><i className="fa-brands fa-linkedin-in"></i></a>
+                        <a href='https://www.instagram.com/alivevilamariana/'><i className="fa-brands fa-instagram"></i></a>
+                        <a href='https://www.facebook.com/people/Alive-Vila-Mariana/100066727030986/'><i className="fa-brands fa-facebook-f"></i></a>
+                        <a href='https://www.linkedin.com/company/dw-incorp/?originalSubdomain=br'><i className="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className='footer-copy'>
-                    <a href=''>Politica De Privacidade</a>
+                    <span>Politica De Privacidade</span>
                     <span>2022 Copyright - Todos os direitos reservados.</span>
-                    <a href=''>Fale Conosco</a>
+                    <a href='https://api.whatsapp.com/send?phone=55'>Fale Conosco</a>
                 </div>
             </div>
         </div>
