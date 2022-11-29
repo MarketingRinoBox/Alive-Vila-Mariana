@@ -37,23 +37,23 @@ function Porque() {
             itemsToShow={3}
             >
                 <div className='iconesWrapper'>
-                    <img src='./logo-alive.png' alt='icone '/>
+                    <img src='./emprego.png' alt='icone '/>
                     <p>Mais de 157 mil trabalhadores formais na região</p>
                 </div>
                 <div className='iconesWrapper'>
-                    <img src='./logo-alive.png' alt='icone '/>
+                    <img src='./metro.png' alt='icone '/>
                     <p>Mobilidade e fácil acesso a 4 estações de metrô (Vila Mariana, Santa Cruz, Ana Rosa e Paraíso)</p>
                 </div>
                 <div className='iconesWrapper'>
-                    <img src='./logo-alive.png' alt='icone '/>
+                    <img src='./universidades.png' alt='icone '/>
                     <p>Região com o 7º melhor IDH de São Paulo</p>
                 </div>
                 <div className='iconesWrapper'>
-                    <img src='./logo-alive.png' alt='icone '/>
+                    <img src='./plantas.png' alt='icone '/>
                     <p>Próximo à Instituições de Ensino e Hospitais</p>
                 </div>
                 <div className='iconesWrapper'>
-                    <img src='./logo-alive.png' alt='icone '/>
+                    <img src='./bares.png' alt='icone '/>
                     <p>Fácil acesso aos principais centros culturais, urbanos e empresariais da cidade</p>
                 </div>
             </Carousel>

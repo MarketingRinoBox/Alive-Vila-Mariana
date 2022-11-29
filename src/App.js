@@ -1,22 +1,21 @@
 import './App.css';
-import { createBrowserRouter } from 'react-router-dom';
+import {BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home';
 import Obrigado from './pages/Obrigado';
 import NonPage from './pages/NonPage';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Home />
-  },
-  {
-    path: '/obrigado',
-    element: <Obrigado />
-  },
-  {
-    path: '*',
-    element: <NonPage />
-  },
-])
+function App() {
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/obrigado' element={<Obrigado />}/>
+          <Route path='*' element={<NonPage />}/>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
 
-export { router }
+export default App;
