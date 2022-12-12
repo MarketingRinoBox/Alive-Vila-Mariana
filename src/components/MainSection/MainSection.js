@@ -15,7 +15,7 @@ function MainSection() {
                 <div className='mainSection-area-texto'>
                     <img src='./dwincorp.png' alt='Dw Incorp'/>
                     <h1>Invista no melhor de <br/><strong><span>S</span>ão <span>P</span>aulo</strong></h1>
-                    <p>Praticidade, sofisticação e o lazer que você merece!</p>
+                    <p>Ideal para você que quer praticidade, sofisticação e o lazer que merece!</p>
                     <a href='#galeria'>Saiba mais!</a>
                 </div>
                 <div className='icon-scroll' />

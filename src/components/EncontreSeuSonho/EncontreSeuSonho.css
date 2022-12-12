@@ -50,6 +50,7 @@
 
 .card-inner img {
     width: 306px;
+    margin-bottom: 15px;
 }
 
 .card-inner-box {
@@ -103,6 +104,21 @@
     cursor: pointer;
 }
 
+
+@media (min-width: 1920px) {
+    .encontreSeuSonho h1 {
+        font-size: 78px;
+    }
+    .card-box-texto h1 {
+        font-size: 24px;
+    }
+    .card-inner img {
+        width: 408px;
+    }
+    .card-box-texto p {
+        font-size: 12px;
+    }
+}
 
 @media (max-width: 940px) {
     .encontreSeuSonho h1 {

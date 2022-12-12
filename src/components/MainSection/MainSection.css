@@ -12,25 +12,27 @@
 .mainSection-area {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 50px 0;
-    z-index: 5;
-
+    padding: 58px 0 86px 0;
+    align-items: center;
 }
 
 .mainSection-area-texto {
     width: 50%;
 }
 
-.mainSection-area-texto img{
-    width: 170px;
+.mainSection-area-texto img {
+    width: 230px;
+    margin-bottom: 20px;
 }
 
 .mainSection-area-texto h1 {
     font-weight: 500;
+    font-size: 46px;
+    margin-bottom: 20px;
 }
 
 .mainSection-area-texto strong {
-    font-size: 42px;
+    font-size: 62px;
 }
 
 .mainSection-area-texto span {
@@ -38,23 +40,24 @@
 }
 
 .mainSection-area-texto p {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .mainSection-area-texto a {
     text-decoration: none;
     color: #f9a328;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .mainSection-area-texto a:hover {
     color: #000;
 }
 
-.icon-scroll{
+.icon-scroll {
     width: 11px;
     height: 12px;
     margin-left: -20px;
@@ -71,10 +74,11 @@
     0% {
         opacity: 1;
     }
-  100% {
-    opacity: 0;
-    transform: translateY(50px);
-  }
+
+    100% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
 
 }
 
@@ -83,14 +87,14 @@
     padding: 0 !important;
 }
 
-.llform001 > div > label {
+.llform001>div>label {
     color: white;
     margin: 0;
 }
 
 .mainSection-forms form {
-    max-width: 315px !important;
-    background-color: rgba(0, 0, 0, 0.6) !important;
+    max-width: 400px !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
     border-radius: 20px !important;
     color: white !important;
     padding: 20px 30px !important;
@@ -112,7 +116,9 @@
     color: white;
 }
 
-.llform001 > div > input, .llform001 > div > select, .llform001 > div > textarea {
+.llform001>div>input,
+.llform001>div>select,
+.llform001>div>textarea {
     background-color: transparent !important;
     border: none !important;
     border-bottom: 1px solid white !important;
@@ -124,7 +130,7 @@
     z-index: 5;
 }
 
-.llform001 > div {
+.llform001>div {
     padding: 0px 0 !important;
 }
 
@@ -138,7 +144,7 @@
     font-size: 16px !important;
 }
 
-.inputs input::placeholder{
+.inputs input::placeholder {
     color: white !important;
 }
 
@@ -146,7 +152,6 @@
 .checkbox {
     width: 90% !important;
     font-size: 13px !important;
-    padding-bottom: 20px !important;
 }
 
 .checkbox label {
@@ -166,10 +171,68 @@
     cursor: pointer;
 }
 
+
+
+@media (min-width: 1920px) {
+    .mainSection-area-texto img {
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .mainSection-area-texto h1 {
+        font-size: 60px;
+    }
+
+    .mainSection-area-texto strong {
+        font-size: 88px;
+    }
+
+    .mainSection-area-texto p {
+        font-size: 42px;
+        line-height: 54px;
+    }
+
+    .mainSection-area-texto a {
+        font-size: 32px;
+    }
+
+    .investimentoMoradia h1 {
+        font-size: 36px !important;
+    }
+
+    .radio-list label {
+        font-size: 24px;
+    }
+
+    .mainSection-forms form {
+        max-width: 415px !important;
+    }
+
+    .llform001>div>input,
+    .llform001>div>select,
+    .llform001>div>textarea {
+        font-size: 22px !important;
+        height: 48px !important;
+    }
+
+    .checkbox label {
+        font-size: 24px;
+    }
+
+    .checkbox label {
+        font-size: 17px;
+    }
+
+    .button-bar button {
+        font-size: 28px;
+    }
+}
+
 @media (max-width: 910px) {
     .mainSection-area {
         justify-content: space-around;
     }
+
     .icon-scroll {
         display: none
     }
@@ -180,6 +243,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     .mainSection-area-texto {
         margin-bottom: 50px;
         width: 62%;
@@ -191,4 +255,3 @@
         width: 80%;
     }
 }
-

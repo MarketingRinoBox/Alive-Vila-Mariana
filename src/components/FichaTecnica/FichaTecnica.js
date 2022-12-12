@@ -3,12 +3,12 @@ import './FichaTecnica.css'
 function FichaTecnica() {
     return (
         <div className='fichaTecnica'>
-            <h1 id='fichaTecnica'><span>f</span>icha Técnica</h1>
+            <h1 id='fichaTecnica'><span>f</span>icha técnica</h1>
             <div className="fichaTecnica-box">
                     <div className="fichaTecnica-area-endereco">
                         <div className="fichaTecnica-area-itens">
                             <ul className="enderecos-lista">
-                                <li>Tipo de torre:</li>
+                                <li>Tipologias:</li>
                                 <li>Residencial + Loja</li>
                             </ul>
                             <ul className="enderecos-lista">
@@ -17,7 +17,7 @@ function FichaTecnica() {
                             </ul>
                             <ul className="enderecos-lista">
                                 <li>Área total construída:</li>
-                                <li>9047m²</li>
+                                <li>9.047m²</li>
                             </ul>
                             <ul className="enderecos-lista">
                                 <li>Projeto de Arquitetura:</li>
@@ -25,7 +25,7 @@ function FichaTecnica() {
                             </ul>
                             <ul className="enderecos-lista">
                                 <li>Projeto de Interiores:</li>
-                                <li>Fabiana Rosello Arq. e Interiores</li>
+                                <li>Fabiana Rosello <br/>Arquitetura e Interiores</li>
                             </ul>
                             <ul className="enderecos-lista">
                                 <li>Projeto de Paisagismo:</li>
@@ -38,7 +38,7 @@ function FichaTecnica() {
                                 <li>Número de pavimentos e unidades por andar</li>
                                 <ul>
                                     <li>20 pavimentos, sendo:</li>
-                                    <li>1 subsolos (garagens)</li>
+                                    <li>1 subsolo (garagens)</li>
                                     <li>Térreo (acessos, loja e unidades nR)</li>
                                     <li>1° (15 finais de unidades nR)</li>
                                     <li>2° ao 8° (15 finais por pavimento – R)</li>
@@ -51,7 +51,7 @@ function FichaTecnica() {
                                 <li>Total de Unidades</li>
                                 <ul>
                                 <li>208 unidades, sendo:</li>
-                                <li>Loja - 1 Não resid.</li>
+                                <li>Loja</li>
                                 <li>Studios - 64 Resid. & 9 Não resid.</li>
                                 <li>1 Dorm. - 98 Resid. & 9 Não resid.</li>
                                 <li>2 Dorm. - 16 Resid. & 2 Não resid.</li>

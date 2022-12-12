@@ -19,18 +19,18 @@ function Footer() {
                     <div className='footer-contatos'>
                         <ul>
                             <li><strong>Central de vendas:</strong></li>
-                            <li>11 5242-0204</li>
+                            <a href='https://api.whatsapp.com/send?phone=5511951867047'><li>(11) 95186-7047</li></a>
                         </ul>
                         <ul>
                             <li><strong>Atendimento ao cliente:</strong></li>
-                            <li>11 3151-2366</li>
+                            <a href='https://api.whatsapp.com/send?phone=551132571717'><li>(11) 3257-1717</li></a>
                         </ul>
                         <ul>
-                            <li>atendimento@planik.com.br</li>
+                            <li>contato@dwincorp.com.br</li>
                         </ul>
                         <ul>
                             <li><strong>Horário de atendimento</strong></li>
-                            <li>Segunda à quinta das 9:00h às 18:00h<br/>Sexta-feira, das 09 às 16h</li>
+                            <li>Segunda à quinta das 9:00h às 18:00h</li>
                         </ul>
                         <div className='footer-icons'>
                         <a href='https://www.instagram.com/alivevilamariana/'><i className="fa-brands fa-instagram"></i></a>
@@ -42,7 +42,7 @@ function Footer() {
                 <div className='footer-copy'>
                     <span>Politica De Privacidade</span>
                     <span>2022 Copyright - Todos os direitos reservados.</span>
-                    <a href='https://api.whatsapp.com/send?phone=55'>Fale Conosco</a>
+                    <a href='https://api.whatsapp.com/send?phone=5511951867047'>Fale Conosco</a>
                 </div>
             </div>
         </div>

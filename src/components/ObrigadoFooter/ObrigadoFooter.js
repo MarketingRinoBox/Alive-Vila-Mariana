@@ -5,7 +5,7 @@ function ObrigadoFooter() {
         <div className='obrigadoFooter'>
             <div className='obrigadoFooter-footer'>
                 <img src='./dwincorp.png' alt='Logo da unity'/>
-                <p>Desenvolvido por Rino Box© 2022 - Todos os direitos reservados.</p>
+                <p>© copyright 2022 - alive - Vila Mariana. Todos os direitos reservados.</p>
                 <div className='obrigadoFooter-icones'>
                     <a href='https://www.facebook.com/unityengenhariabr'><i class="fa-brands fa-facebook"></i></a>
                     <a href='https://api.whatsapp.com/send?phone=551132571717'><i class="fa-brands fa-whatsapp"></i></a>

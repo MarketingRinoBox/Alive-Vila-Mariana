@@ -23,7 +23,7 @@ function Header() {
                         <li><a href='#galeria'>Galeria</a></li>
                         <li><a href='#diferenciais'>Diferenciais</a></li>
                         <li><a href='#plantas'>Plantas</a></li>
-                        <li><a href='#encontreSeuSonho'>Encontre seu sonho</a></li>
+                        <li><a href='#encontreSeuSonho'>Encontre seu investimento</a></li>
                     </ul>
                 </div>
                 <div className="table_center">
@@ -35,14 +35,14 @@ function Header() {
                                         <li><a className="drop-down__item" href='#galeria'>Galeria</a></li>
                                         <li><a className="drop-down__item" href='#diferenciais'>Diferenciais</a></li>
                                         <li><a className="drop-down__item" href='#plantas'>Plantas</a></li>
-                                        <li><a className="drop-down__item" href='#encontreSeuSonho'>Encontre seu sonho</a></li>
+                                        <li><a className="drop-down__item" href='#encontreSeuSonho'>Encontre seu investimento</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 <div className='header-area-contato'>
-                    <a href='https://api.whatsapp.com/send?phone=55'><img src="./iconezinho-pessoa.png" alt=''/>Contato</a>
+                    <a href='https://api.whatsapp.com/send?phone=5511951867047'><img src="./iconezinho-pessoa.png" alt=''/>Contato</a>
                 </div>
             </div>
         </div>

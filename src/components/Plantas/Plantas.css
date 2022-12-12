@@ -74,7 +74,7 @@
 }
 
 .plantas-area-imagem img {
-    width: 85%;
+    width: 95%;
 }
 
 .plantas .rec-dot {
@@ -103,6 +103,21 @@
 
 .plantas .rec-carousel-wrapper {
     padding-bottom: 80px;
+}
+
+@media (min-width: 1920px) {
+    .plantas h1 {
+        font-size: 78px;
+    }
+    .plantas-area-texto p {
+        font-size: 24px;
+    }
+    .rec-carousel {
+        height: 486px;
+    }
+    .plantas-area-imagem img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 940px) {

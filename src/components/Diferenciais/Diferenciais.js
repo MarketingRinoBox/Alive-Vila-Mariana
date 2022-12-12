@@ -15,7 +15,7 @@ function Diferenciais() {
                         </li>
                         <li>
                             <div className='listaDiferenciais'>
-                                <i className="fa-sharp fa-solid fa-circle"></i>Lavanderia compartilhada com projeto e instalação da OMO
+                                <i className="fa-sharp fa-solid fa-circle"></i>Lavanderia compartilhada com projeto e instalação by OMO
                             </div>
                         </li>
                         <li>
@@ -34,13 +34,13 @@ function Diferenciais() {
                             </div>
                         </li>
                         <li>
-                            <div className='listaDiferenciais'>
-                                <i className="fa-sharp fa-solid fa-circle"></i>*Será entregue infraestrutura para instalação, operação a cargo do condomínio.
+                            <div className='listaDiferenciais-alt'>
+                                *Será entregue infraestrutura para instalação, operação a cargo do condomínio.
                             </div>
                         </li>
                         <li>
-                            <div className='listaDiferenciais'>
-                                <i className="fa-sharp fa-solid fa-circle"></i>**Conforme norma de desempenho (NBR 15575/2013).
+                            <div className='listaDiferenciais-alt'>
+                                **Conforme norma de desempenho (NBR 15575/2013).
                             </div>
                         </li>
                     </ul>

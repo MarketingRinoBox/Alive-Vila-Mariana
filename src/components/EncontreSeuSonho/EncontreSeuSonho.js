@@ -6,7 +6,7 @@ function EncontreSeuSonho() {
 
     return (
         <div className='encontreSeuSonho'>
-            <h1 id='encontreSeuSonho' ><span>e</span>ncontre seu sonho</h1>
+            <h1 id='encontreSeuSonho' ><span>e</span>ncontre seu investimento</h1>
             <div className='tracado'></div>
             <div className="cards">
                 <div className='card-inner'>
@@ -56,7 +56,7 @@ function EncontreSeuSonho() {
                     <div className='card-inner-text'>
                         <div className='card-inner-box'>
                             <div className='card-box-texto'>
-                                <h1>ALTO DA BOA VISTA</h1>
+                                <h1>EB500</h1>
                                 <p>DW INCORP</p>
                             </div>
                             <div className='card-box-icone'>

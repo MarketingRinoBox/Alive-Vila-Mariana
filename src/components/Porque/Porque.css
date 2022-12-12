@@ -15,11 +15,11 @@
     padding: 15px 0;
 }
 
-.spanArea{
+.spanArea {
     text-align: center;
     font-weight: 600;
     font-size: 32px;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 .iconesWrapper {
@@ -31,7 +31,7 @@
     margin: 80px 0;
 }
 
-.iconesWrapper img{
+.iconesWrapper img {
     width: 150px;
 }
 
@@ -40,22 +40,52 @@
     width: 80%;
 }
 
-.rec-dot {
-    display: none;
+.absolute {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 335px;
 }
 
-.rec-arrow:hover, .rec-arrow:active {
-    background-color: #f9a328 !important;
+.rec-carousel {
+    height: 350px;
 }
 
-.rec-arrow-left:hover, .rec-arrow-right:active, .rec-arrow-left:hover:enabled {
-    background-color: #f9a328 !important;
+.rec-dot_active {
+    background-color: rgba(255, 162, 0, 1) !important;
+    box-shadow: 0 0 1px 3px rgba(255, 162, 0, 1) !important;
+}
+
+.rec-dot:focus,
+.rec-dot:hover,
+.rec-dot:active {
+    box-shadow: 0 0 1px 3px rgba(255, 162, 0, 1) !important;
+}
+
+.rec-dot_active:focus,
+.rec-dot_active:hover,
+.rec-dot_active:active {
+    background-color: rgba(255, 162, 0, 1) !important;
+    box-shadow: 0 0 1px 3px rgba(255, 162, 0, 1) !important;
+}
+
+@media (min-width: 1920px) {
+    .porque-area h1 {
+        font-size: 4rem;
+    }
+    .porque-area p {
+        font-size: 24px;
+    }
+    .iconesWrapper p {
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 1080px) {
-    .iconesWrapper img{
+    .iconesWrapper img {
         width: 115px;
     }
+
     .iconesWrapper p {
         font-size: 12px;
     }
@@ -74,30 +104,34 @@
 }
 
 @media (max-width: 705px) {
-    .iconesWrapper img{
+    .iconesWrapper img {
         width: 88px;
     }
+
     .porque .rec-carousel {
         height: 254px !important;
     }
 }
 
 @media (max-width: 565px) {
-    .iconesWrapper img{
+    .iconesWrapper img {
         width: 70px;
     }
+
     .iconesWrapper p {
         font-size: 10px;
     }
+
     .porque .rec-carousel {
         height: 230px !important;
     }
 }
 
 @media (max-width: 480px) {
-    .iconesWrapper img{
+    .iconesWrapper img {
         width: 58px;
     }
+
     .iconesWrapper p {
         font-size: 10px;
     }

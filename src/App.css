@@ -15,7 +15,7 @@ a, ul, li {
 
 .footer-section {
   background-image: url('../public/bg-footer.png');
-  background-position: 0px 0px;
+  background-position: 0px -90px;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -41,6 +41,45 @@ a, ul, li {
   background-position: 0 -335px;
 }
 
+.obrigado {
+  background-image: url('../public/bg-3.png');
+  background-size: cover;
+}
+
+@media (max-width: 2560px) {
+  .bg1-home {
+    background-size: 24%;
+    background-position: 100% 3%;
+  }
+  .mainSection-forms form {
+    background-color: rgba(0,0,0,.6)!important;
+    border-radius: 20px!important;
+    color: #fff!important;
+    max-width: 400px!important;
+    padding: 20px 30px!important;
+    z-index: 5;
+}
+}
+
+@media (max-width: 2000px) {
+  .bg1-home {
+    background-size: 30%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .bg1-home {
+    background-size: 37%;
+    background-position: 105% 2%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .bg1-home {
+    background-size: 40%;
+  }
+}
+
 @media (max-width: 1310px) {
   .bg1-home {
     background-size: 44%;
@@ -63,14 +102,14 @@ a, ul, li {
 
 @media (max-width: 860px) {
   .bg1-home {
-    background-position: 50% 26%;
-    background-size: 43%;
+    background-position: 50% 31%;
+    background-size: 47%;
   }
 }
 
 @media (max-width: 795px) {
   .bg1-home {
-    background-position: 50% 25%;
+    background-position: 50% 31%;
     background-size: 47%;
   }
 }
@@ -83,29 +122,29 @@ a, ul, li {
 
 @media (max-width: 710px) {
   .bg1-home {
-    background-position: 50% 25%;
-    background-size: 52%;
+    background-position: 50% 31%;
+    background-size: 55%;
   }
 }
 
 @media (max-width: 695px) {
   .bg1-home {
-    background-position: 50% 24%;
-    background-size: 53%;
+    background-position: 50% 30%;
+    background-size: 56%;
   }
 }
 
 @media (max-width: 650px) {
   .bg1-home {
-    background-position: 50% 23%;
-    background-size: 57%;
+    background-position: 50% 30%;
+    background-size: 59%;
   }
 }
 
 @media (max-width: 615px) {
   .bg1-home {
-    background-position: 50% 23%;
-    background-size: 60%;
+    background-position: 50% 32%;
+    background-size: 65%;
   }
 }
 
@@ -119,19 +158,23 @@ a, ul, li {
 
 @media (max-width: 580px) {
   .bg1-home {
-    background-position: 50% 22%;
-    background-size: 64%;
+    background-position: 50% 32%;
+    background-size: 68%;
   }
 }
 
 @media (max-width: 520px) {
   .bg1-home {
-    background-position: 50% 22%;
-    background-size: 70%;
+    background-position: 50% 31%;
+    background-size: 74%;
   }
 }
 
 @media (max-width: 500px) {
+  .bg1-home {
+    background-position: 50% 31%;
+    background-size: 78%;
+  }
   .footer-section {
     height: 135vh;
   }
@@ -139,20 +182,37 @@ a, ul, li {
 
 @media (max-width: 475px) {
   .bg1-home {
-    background-position: 50% 21%;
-    background-size: 80%;
+    background-position: 50% 31%;
+    background-size: 82%;
+  }
+}
+
+@media (max-width: 472px) {
+  .bg1-home {
+    background-position: 50% 33%;
   }
 }
 
 @media (max-width: 437px) {
   .bg1-home {
-    background-position: 50% 22%;
-    background-size: 85%;
+    background-position: 50% 33%;
+    background-size: 89%;
   }
 }
 
 @media (max-width: 400px) {
+  .bg1-home {
+    background-position: 50% 32%;
+    background-size: 100%;
+  }
   .footer-section {
     height: 145vh;
+  }
+}
+
+@media (max-width: 350px) {
+  .bg1-home {
+    background-position: 50% 33%;
+    background-size: 111%;
   }
 }

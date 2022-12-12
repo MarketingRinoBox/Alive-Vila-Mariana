@@ -19,12 +19,13 @@
     align-items: center;
     justify-content: flex-start;
     display: flex;
+    gap: 110px;
 }
 
 .header-area-menu ul {
     list-style: none;
     display: flex;
-    padding: 0 0 0 30px;
+    gap: 0 0 0 30px;
     margin: 0;
 }
 
@@ -55,6 +56,35 @@
 
 .table_center {
     display: none;
+}
+
+@media (min-width: 1920px) {
+  .header-area-menu img {
+    width: 190px;
+}
+.header-area-menu a {
+font-size: 26px;
+}
+.header-area-contato a {
+  font-size: 26px;
+  padding: 6px 20px;
+  border-radius: 5px;
+}
+.header-area-contato img {
+  width: 18px;
+}
+}
+
+@media (max-width: 1020px) {
+  .header-area-menu {
+    gap: 40px;
+}
+}
+
+@media (max-width: 950px) {
+  .header-area-menu {
+    gap: 0px;
+}
 }
 
 @media (max-width: 900px) {
